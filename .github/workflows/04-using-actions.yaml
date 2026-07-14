@@ -9,7 +9,7 @@ jobs:
             - name: Checkout code
               uses: actions/checkout@v7
             - name: Printing folders
-              run: ls 
+              run: ls -R
 
         #checkout code
         #1install react dependencies
