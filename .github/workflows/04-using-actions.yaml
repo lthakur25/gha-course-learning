@@ -14,7 +14,8 @@ jobs:
                 node-version: '24.x'
                 
             - name: Install Dependencies
-              run: npm ci   
+              run: npm ci 
+              working-directory: 04-using-actions/react-app  
               
 
         #checkout code
